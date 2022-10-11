@@ -1,0 +1,156 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>TSMU </title>
+    <link rel="shortcut icon" type="image/x-icon" href="./images/logo.gif" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/mycss.css">
+    <link rel="stylesheet" type="text/css" href="css/out.css">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/fonts.css">
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/myjs.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script>
+        $.ajax({
+            url:'pi.php',
+            success:function(e){
+                $('#aj').html(e);
+            }
+        });
+    </script>
+    
+       
+       
+</head>
+<body>
+
+    <div class="container-fluid header_container">
+        <div class="row header_row">
+            <header class="col-xs-12 col-md-12 head">
+                <h1 >Student’s Registration and Teaching
+Administration System of Tbilisi State Medical
+University</h1>
+				<h1 >27499</h1>
+            </header>
+        </div> <!-- header_row -->
+    </div>
+    <div class="container">
+        <div class="row body_row">
+            <aside id="aside" class="col-xs-12 col-md-3">
+                <div class="aside">
+                    <div class="tsmu-logo hidden-xs">
+                        <img class="img-responsive center-block" src="./images/logo_didi.png" alt="" />
+                    </div>
+                    <nav class="navbar navbar-default " id="csNav">
+                          <div class="">
+                            <!-- Brand and toggle get grouped for better mobile display -->
+                            <div class="navbar-header">
+                              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                              </button>
+                            </div>
+
+                            <!-- Collect the nav links, forms, and other content for toggling -->
+                            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                              <ul class="nav  nav-pills nav-stacked list-unstyled myNav">
+                                  <li><button class="btn btn-block sw k" >The Student’s Study card</button></li>
+                                  <li><button class="btn btn-block pi k" >Student’s Personal Information</button></li>
+                                  <li><button class="btn btn-block fb k" >Information about University Fees</button></li>
+                                                                    <li><button  class="btn btn-block mail k" style="background-color:#D8AFAF;" >Mails unread (10)</button></li>
+                                  
+                                  
+                                   <li><button  class="btn btn-block mailgag k" style="background-color:#D8AFAF;" >Send message </button></li>
+                                   
+                                   
+                                   
+                                  <li><button class="btn btn-block news k" >NEWS</button></li>
+                                  
+                                  
+                                   <li><button class="btn btn-block lit k" >BOOKS</button></li>
+								  
+                                                                       <li><button class="btn btn-block kur k" >Extracurricular activity</button></li>
+                                                                        <li><a href="http://217.147.228.48/catalog/student/usertable.php" target="_blank"><button class="btn btn-block kur" >Electronic library</button></a></li>
+                                  
+                                    <li><button class="btn btn-block prog k" >Practice Programs</button></li>
+                                                                                                            
+                                      
+                                    <li><button class="btn btn-block gan_en k" >statement</button></li>
+                                     								  
+								  
+								    
+                                    <li><button class="btn btn-block infi k" >Necessary Information</button></li>
+                                     								  
+								   <li><button class="btn btn-block kovid k" >Covid 19 -  form</button></li>
+								  
+                                    
+                                  <li class="langNav">
+                                    <ul class="list-unstyled ">
+                                        <li><button class="btn btn-block btn-info lang-geo" onclick="window.open('?lang=geo' , '_self')">Georgian</button></li>
+                                        <li><button class="btn btn-block btn-info lang-eng" onclick="window.open('?lang=eng' , '_self')">English</button></li>
+                                        <li class="logOut"><button class="out btn btn-block btn-warning ">Log Out</button></li>
+                                    </ul>
+                                  </li>
+                              </ul>
+
+                            </div><!-- /.navbar-collapse -->
+                          </div><!-- /.container-fluid -->
+                        </nav>
+                </div>
+            </aside>
+            <main class="col-xs-12 col-md-9">
+                <section id="aj">
+                    <h2>Welcome                        SHAWNE SANJAY                    </h2>
+
+
+                                    <br />
+                <h2 class="btn btn-block mail k" style="color:#990000; cursor:pointer; background-color:#CCCCCC; padding-bottom:30px;">10 Unread message</h2>
+                                </section>
+            </main>
+        </div> <!-- body_row -->
+    </div> <!-- container -->
+    <div class="container-fluid footer_container hidden-xs">
+        <div class="container">
+            <div class="row footer_row">
+                <footer class="col-xs-12 col-md-12 footer">
+                    <span>SHAWNE SANJAY</span>
+                    <span>ALFRED</span>
+                    <span> Z5469214</span>
+                </footer>
+            </div> <!-- footer_row -->
+        </div><!--  footer container -->
+    </div> <!-- footer fluid -->
+    <div class='fl'>
+        <div class='cont col-xs-10 col-sm-3'>
+
+        </div>
+    </div>
+    
+    <!-- Modal -->
+<div id="kitxvebi" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content" id="kit_tani">
+      
+     
+     
+     
+     
+     
+    </div>
+
+  </div>
+</div>
+
+	
+</body>
+</html>
